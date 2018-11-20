@@ -9,5 +9,7 @@ def oxford_comma(array)
   elsif num == 3
     puts num
     
-    
+  else
+    puts num
+  end
 end
