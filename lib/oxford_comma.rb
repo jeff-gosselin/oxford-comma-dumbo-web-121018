@@ -8,7 +8,7 @@ def oxford_comma(array)
   when num == 2 
     array.join(" and ")
   
-  when num == 3 
+  else 
     puts num
     
     
