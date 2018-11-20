@@ -7,8 +7,7 @@ def oxford_comma(array)
     array.join(" and ")
   
   elsif num == 3
-    all_commas = array.join(", ")
-    
+    array[-1] = "and #{array[-1]}"
   else
     puts num
   end
