@@ -3,7 +3,6 @@ def oxford_comma(array)
   
   case num
     when num == 1
-   
     array.join()
   
   elsif array.length == 2 
