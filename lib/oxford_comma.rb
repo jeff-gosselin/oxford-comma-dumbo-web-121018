@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif num == 2 
     array.join(" and ")
   
-  else 
+  elseif num == 3
     puts num
     
     
