@@ -7,7 +7,7 @@ def oxford_comma(array)
     array.join(" and ")
   
   elsif num == 3
-    puts num
+    all_commas = array.join(", ")
     
   else
     puts num
